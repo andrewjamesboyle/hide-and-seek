@@ -50,9 +50,6 @@ resetButton.addEventListener('click', () => {
 });
 
 function handleGuess(correctSpot, userGuess) {
-    shedContainer.classList.remove('face');
-    boulderContainer.classList.remove('face');
-    treeContainer.classList.remove('face');
 
     if (userGuess === correctSpot) {
         console.log('You win!');
